@@ -1,9 +1,7 @@
 ===================================================
-Network Heat Diffusion
+CDAPS igraph layout
 ===================================================
 
-This repository creates a CDAPS compatible Diffusion Docker image using Network Heat Diffusion
-packaged from https://github.com/idekerlab/networkheatdiffusion
 
 Dependencies
 ------------
@@ -17,8 +15,8 @@ Building
 
 .. code-block::
 
-   git clone https://github.com/idekerlab/cddiffusion
-   cd cddiffusion
+   git clone https://github.com/idekerlab/cdigraphlayout
+   cd cdigraphlayout
    make dockerbuild
 
 Run **make** command with no arguments to see other build/deploy options including creation of Docker image
@@ -52,9 +50,6 @@ Output:
 Usage
 -----
 
-.. code-block::
-
-   docker run -v coleslawndex/cddiffusion:0.0.1 -h
 
 
 Credits
