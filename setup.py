@@ -20,7 +20,7 @@ with open(os.path.join('cdigraphlayout', '__init__.py')) as ver_file:
 
 requirements = [
     'ndex2>=3.3.0,<4.0.0',
-    'python-igraph',
+    'python-igraph>=0.8.3,<1.0.0',
 ]
 
 test_requirements = [
