@@ -1,7 +1,9 @@
 ===================================================
-CDAPS igraph layout
+CDAPS IGraph_ layout
 ===================================================
 
+This CDAPS container runnable by the CDAPS_ REST service allows caller to add
+IGraph_ layouts to networks in CX_ format used by NDEx_
 
 Dependencies
 ------------
@@ -102,3 +104,6 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _cartesianLayout: https://home.ndexbio.org/data-model/#cart_layout
 .. _Docker: https://www.docker.com/
 .. _pip: https://pypi.org/project/pip/
+.. _IGraph: https://igraph.org/python/
+.. _CX: https://home.ndexbio.org/data-model/
+.. _CDAPS: https://cdaps.readthedocs.io
